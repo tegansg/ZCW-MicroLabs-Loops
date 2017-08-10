@@ -16,6 +16,9 @@
 .idea/**/uiDesigner.xml
 
 # Gradle:
+.classpath
+.project
+.settings/
 .idea/**/gradle.xml
 .idea/**/libraries
 
@@ -145,3 +148,4 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+/target/

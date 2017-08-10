@@ -1,14 +1,14 @@
 package io.zipcoder.microlabs.mastering_loops;
 import java.util.*;
 
-public class CarRide {
-
+public class CarRide {	
+	
     public static void main(String[] args)
     {
     	CarRide myCarRide = new CarRide();
     	myCarRide.areWeThereYet();
     }
-	
+    
 	public void areWeThereYet()
 	{
     	Scanner in = new Scanner(System.in);
@@ -23,7 +23,10 @@ public class CarRide {
     	}
     	
     	System.out.print("Good!"); 	
+    	
+    	
     	in.close();      
     }
+	
 
 }
